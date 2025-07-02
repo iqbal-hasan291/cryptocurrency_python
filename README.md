@@ -33,11 +33,7 @@ It is designed for anyone interested in automating crypto market monitoring and 
 
 ## How It Works
 
-1. **Fetch Data**: The script requests real-time cryptocurrency market data from the CoinGecko API.
-2. **Analyze Data**: Using Pandas, it calculates the top 10 currencies with the highest and lowest price change in the last 24 hours.
-3. **Save Results**: A CSV file is created containing the full dataset, with a timestamp in the filename for record-keeping.
-4. **Email Report**: An email is generated and sent to the receiver, containing a brief summary of the top 10 performers and losers, along with the CSV file attached.
-5. **Scheduled Execution**: The script runs automatically every day at a specific time using the `schedule` library.
+![](https://github.com/iqbal-hasan291/cryptocurrency_python/blob/712cc216297382a0ae67033874b2e2915c010047/image/Crypto%20Currency%20Tracker%20and%20Email%20Automation%20-%20visual%20selection.png)
 
 ---
 ##  Scheduling
