@@ -4,6 +4,8 @@ This project is a Python-based automation tool that collects real-time cryptocur
 
 It is designed for anyone interested in automating crypto market monitoring and email reporting using Python and open APIs.
 
+![](Vhttps://github.com/iqbal-hasan291/cryptocurrency_python/blob/5a7ac1ae73382cdb41186b9446b571b1f1454821/image/python_image.webp)
+
 ---
 
 ## Project Features
@@ -50,3 +52,21 @@ schedule.every().day.at("09:00").do(get_crypto_data)
 - Email body includes:
   - 📈 Top 10 cryptocurrencies by price gain (24h)
   - 📉 Top 10 cryptocurrencies by price drop (24h)
+
+
+## Sample Output
+
+![](https://github.com/iqbal-hasan291/cryptocurrency_python/blob/5a7ac1ae73382cdb41186b9446b571b1f1454821/image/Email%201.png)
+
+![](https://github.com/iqbal-hasan291/cryptocurrency_python/blob/5a7ac1ae73382cdb41186b9446b571b1f1454821/image/Email%202.png)
+
+##Make sure to:
+- Enable **Less Secure App Access** or use **App Passwords** if you have 2FA enabled.
+- Update the script with your email credentials:
+  ```python
+  sender_mail = 'your_email@gmail.com'
+  sender_password = 'your_app_password'
+  receiver_mail = 'receiver_email@gmail.com'
+
+
+### Thank You
